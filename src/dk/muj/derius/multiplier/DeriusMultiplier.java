@@ -11,6 +11,7 @@ import dk.muj.derius.api.Skill;
 import dk.muj.derius.api.events.SkillRegisteredEvent;
 import dk.muj.derius.api.events.player.PlayerExpAddEvent;
 import dk.muj.derius.multiplier.entity.MConf;
+import dk.muj.derius.multiplier.entity.MConfColl;
 
 public class DeriusMultiplier extends MassivePlugin
 {
@@ -30,6 +31,8 @@ public class DeriusMultiplier extends MassivePlugin
 	public void onEnable()
 	{
 		if ( ! this.preEnable()) return;
+		
+		MConfColl.get().init();
 		
 		for (Skill skill : DeriusAPI.getAllSkills())
 		{
