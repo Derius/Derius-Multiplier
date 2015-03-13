@@ -7,9 +7,9 @@ import org.bukkit.event.EventPriority;
 import com.massivecraft.massivecore.MassivePlugin;
 
 import dk.muj.derius.api.DeriusAPI;
-import dk.muj.derius.api.Skill;
 import dk.muj.derius.api.events.SkillRegisteredEvent;
 import dk.muj.derius.api.events.player.PlayerExpAddEvent;
+import dk.muj.derius.api.skill.Skill;
 import dk.muj.derius.multiplier.entity.MConf;
 import dk.muj.derius.multiplier.entity.MConfColl;
 
