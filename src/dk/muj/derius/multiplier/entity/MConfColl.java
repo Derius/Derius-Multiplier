@@ -40,4 +40,5 @@ public class MConfColl extends Coll<MConf>
 		super.init();
 		MConf.i = this.get("MultiplierSettings", true);
 	}
+	
 }

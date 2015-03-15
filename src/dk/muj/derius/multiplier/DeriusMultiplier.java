@@ -13,7 +13,7 @@ import dk.muj.derius.api.skill.Skill;
 import dk.muj.derius.multiplier.entity.MConf;
 import dk.muj.derius.multiplier.entity.MConfColl;
 
-public class DeriusMultiplier extends MassivePlugin
+public final class DeriusMultiplier extends MassivePlugin
 {
 	// -------------------------------------------- //
 	// INSTANCE & CONSTRUCT
@@ -21,7 +21,7 @@ public class DeriusMultiplier extends MassivePlugin
 	
 	private static DeriusMultiplier i;
 	public static DeriusMultiplier get() { return i; }
-	public DeriusMultiplier() { i = this; }
+	private DeriusMultiplier() { i = this; }
 	
 	// -------------------------------------------- //
 	// OVERRIDE: PLUGIN
