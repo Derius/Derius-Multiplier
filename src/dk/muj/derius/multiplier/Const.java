@@ -6,7 +6,7 @@ public class Const
 	// BASENAME
 	// -------------------------------------------- //
 	
-	public static final String BASENAME = "Derius/Multiplier";
+	public static final String BASENAME = "Derius_Multiplier";
 	public static final String BASENAME_ = BASENAME + "_";
 	public static final String COLLECTION_MCONF = BASENAME_ + "Config";
 	

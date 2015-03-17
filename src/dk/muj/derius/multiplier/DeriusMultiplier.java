@@ -21,7 +21,7 @@ public final class DeriusMultiplier extends MassivePlugin
 	
 	private static DeriusMultiplier i;
 	public static DeriusMultiplier get() { return i; }
-	private DeriusMultiplier() { i = this; }
+	public DeriusMultiplier() { i = this; }
 	
 	// -------------------------------------------- //
 	// OVERRIDE: PLUGIN
